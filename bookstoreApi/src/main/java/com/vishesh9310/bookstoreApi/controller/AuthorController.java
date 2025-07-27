@@ -9,7 +9,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/author")
@@ -20,11 +19,6 @@ public class AuthorController {
 
     @Autowired
     private BookService bookService;
-
-    @GetMapping
-    public List<Author> getAllAuthor(){
-        return authorService.getAll();
-    }
 
     @GetMapping("/{authorName}")
     public ResponseEntity<Author> getByName(@PathVariable String authorName){

@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2921f25-9816-4249-bcac-ccaed90ffbce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BookStore-Api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreApi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/BookstoreApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/BookstoreApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/controller/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreApi/src/main/java/com/vishesh9310/bookstoreApi/service/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
