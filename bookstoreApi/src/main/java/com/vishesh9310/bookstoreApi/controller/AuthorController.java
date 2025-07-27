@@ -56,14 +56,4 @@ public class AuthorController {
         authorService.deleteByName(authorName);
         return new ResponseEntity<>(author,HttpStatus.OK);
     }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteBook(@PathVariable Long id) {
-        return authorService.findById(id)
-                .map(author -> {
-                    authorService.delete(author);
-                    return ResponseEntity.ok().<Void>build();
-                })
-                .orElse(ResponseEntity.notFound().build());
-    }
 }
